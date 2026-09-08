@@ -14,8 +14,6 @@ Patches: crimera/piko-newx/patches-3.12.0.mpp
 Patches: MorpheApp/morphe-patches/patches-1.41.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.41.0)
 
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.41.0)
-
 Patches: RookieEnough/De-Vanced/patches-1.3.2.mpp  
 [Changelog](https://github.com/RookieEnough/De-Vanced/releases/tag/v1.3.2)
 

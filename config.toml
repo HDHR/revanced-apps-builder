@@ -1,4 +1,4 @@
-enable-module-update = true # set this to false if you do not want to receive updates for the module
+enable-module-update = false # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -8,15 +8,15 @@ parallel-jobs = 1
 
 [YouTube-Morphe]
 app-name = "YouTube"
-build-mode = "both"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 enable-update-checks = true
 
 [Music-Morphe]
 app-name = "Music"
-build-mode = "both"
-arch = "both"
+build-mode = "apk"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 enable-update-checks = true
@@ -30,7 +30,7 @@ dpi = "120-640dpi"
 enable-update-checks = true
 
 [GooglePhotos]
-build-mode = "both"
+build-mode = "apk"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
